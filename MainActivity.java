@@ -222,7 +222,7 @@ class SMS implements Runnable {
     public void run() {
         try {
             SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage("+91-7481982987", null, "message", null, null);
+            smsManager.sendTextMessage("+91-xxxxxxxxxx", null, "message", null, null);
         } catch (Exception e) {
             e.printStackTrace();
         }
